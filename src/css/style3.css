@@ -1,0 +1,54 @@
+ body {
+  background-color: #154073;
+  margin:0;
+  padding:0;
+ }
+
+header {
+  width:75vw;
+  background-color: gray;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  margin:auto;
+  min-height:100vh;
+  max-width:75vw;
+}
+
+.main {
+  display:flex;
+}
+
+.content {
+  flex:1;
+  border:1px solid red;
+  color: white;
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 300;
+  padding: 0;
+}
+
+.left {
+  order:-1;
+  border: 1px solid red;
+  width:20vw;
+}
+
+.right {
+  border: 1px solid red;
+  width:20vw;
+}
+
+.logo {
+  min-width:317px;
+  padding: 0;
+  background: url("./images/ola-logo-3d-inlinecrop-db-bgnd317x196.png") no-repeat;
+  height: 200px;
+}
+
+footer {
+  width:75vw;
+  background-color: gray;
+}

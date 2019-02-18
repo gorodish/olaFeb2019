@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Ola2019,
+.Ola2019-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #154073;
+  color: white;
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 300;
+  padding: 0;
+}
+
+.Ola2019-nav {
+  order: -1;
+  border: 1px solid red;
+}
+
+.logo {
+  padding: 0;
+  background: url("./images/ola-logo-3d-inlinecrop-db-bgnd317x196.png") no-repeat;
+  margin-left: 10px;
+  margin-top: 40px;
+  color: #CE2131;
+  height: 200px;
+  border: 1px solid red;
+}
+
+footer {
+  border: 1px solid red;
+}
+
+@media (min-width: 768px) {
+  .Ola2019-body {
+    flex-direction: row;
+    flex: 1;
+  }
+  .Ola2019-content {
+    flex: 2;
+    border: 1px solid red;
+    background-color: grey;
+  }
+  .Ola2019-nav, .Ola2019-ads {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+    border: 1px solid red;
+  }
+}
