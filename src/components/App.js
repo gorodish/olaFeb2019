@@ -11,7 +11,14 @@ class App extends React.Component {
           <div class="left">left</div>
           <aside class="right">aside</aside>
         </div>
-        <footer>footer</footer>
+        <footer>
+          <ul>
+            <li className="footerList">About</li>
+            <li className="footerList">Policies</li>
+            <li className="footerList">Help</li>
+            <li className="footerList">Contact</li>
+          </ul>
+        </footer>
       </div>
     );
   }

@@ -42,13 +42,25 @@ header {
 }
 
 .logo {
+  height: 200px;
   min-width:317px;
   padding: 0;
   background: url("./images/ola-logo-3d-inlinecrop-db-bgnd317x196.png") no-repeat;
-  height: 200px;
 }
 
 footer {
   width:75vw;
-  background-color: gray;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footerList {
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  list-style-type: none;
+  color: #CE2131;
 }
